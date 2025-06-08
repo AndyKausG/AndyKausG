@@ -15,7 +15,7 @@
 I'm a **Smart Home Architect** and **Home Assistant Integration Developer** who transforms complex hardware into seamlessly integrated intelligent systems. I specialize in creating autonomous solutions that think ahead and work invisibly.
 
 ### 🎯 **What I Do**
-- 🏊‍♂️ **Pool Automation Pioneer** - Creator of the world's first fully autonomous pool management AI
+- 🏊‍♂️ **Pool Automation Developer** - Creator of SOMaRS pool monitoring system
 - ⚡ **Energy Systems** - Building integrations for smart energy management (OSTROM, solar, etc.)
 - 🏡 **Home Assistant Expert** - Custom integrations for specialized hardware
 - 🤖 **Automation Architect** - Designing systems that predict and prevent rather than react
@@ -28,19 +28,19 @@ I'm a **Smart Home Architect** and **Home Assistant Integration Developer** who 
 <tr>
 <td width="50%">
 
-### 🏊‍♂️ **SOMaRS Pool Control**
-*AI-Driven Autonomous Pool Management*
+### 🏊‍♂️ **Pool Control Integration**
+*Smart ORP Monitoring & Recovery System*
 
 [![Repo](https://img.shields.io/badge/🔗-ha--pool__control-blue?style=flat-square)](https://github.com/AndyKausG/ha-pool_control)
 [![Stars](https://img.shields.io/github/stars/AndyKausG/ha-pool_control?style=flat-square&color=yellow)](https://github.com/AndyKausG/ha-pool_control)
 
-**🤖 SOMaRS AI Technology:**
-- 24/7 autonomous ORP monitoring
-- Predictive chemistry management  
-- Zero-incident safety record
-- 90%+ maintenance reduction
+**🔧 SOMaRS Features:**
+- Automated ORP monitoring
+- Goal-based operation logic
+- Safety-first design approach
+- Home Assistant integration
 
-*The pool that thinks for itself!*
+*Practical pool automation for Home Assistant*
 
 </td>
 <td width="50%">
@@ -157,18 +157,17 @@ I'm a **Smart Home Architect** and **Home Assistant Integration Developer** who 
 
 ## 💫 Featured in Action
 
-### 🏊‍♂️ **SOMaRS Pool AI - Real Results**
+### 🏊‍♂️ **Pool Control - Practical Automation**
 
 ```yaml
-# One integration, complete pool automation
+# Straightforward pool automation
 pool_control:
   platform: somars
-  mode: fully_autonomous    # No human intervention needed
-  target_orp: 720          # Chemistry goals, not time schedules
-  smart_interventions: true
-  safety_priority: maximum
+  mode: automated           # Goal-based operation
+  target_orp: 720          # Chemistry targets
+  safety_checks: enabled
   
-# Results: 90%+ maintenance reduction, perfect water quality 24/7
+# Goal: Reduce manual pool maintenance work
 ```
 
 ### ⚡ **OSTROM Energy - Smart Savings**
@@ -185,7 +184,7 @@ automation:
       - service: switch.turn_on
         entity_id: switch.washing_machine
         
-# Results: Automatic cost optimization, reduced energy bills
+# Results: Built for intelligent energy cost optimization
 ```
 
 ---
@@ -212,16 +211,17 @@ I believe technology should make life **simpler**, not more complex. My projects
 
 <div align="center">
 
-| **Pool Control Users** | **Energy Savings** | **Maintenance Reduction** | **Safety Incidents** |
+| **Focus Areas** | **Goals** | **Design Priority** | **Track Record** |
 |:---:|:---:|:---:|:---:|
-| 200+ Active Installs | €500+ Average/Year | 90%+ Time Saved | 0 Equipment Damage |
+| Pool Automation | Autonomous Management | User-Friendly Setup | Safety-First Approach |
+| Energy Integration | Cost Optimization | Reliable Operation | Community-Driven |
 
 </div>
 
-**Real User Feedback:**
-- *"My pool literally manages itself now - best investment ever!"* 
-- *"SOMaRS saved me 20+ hours per month and my water has never been clearer"*
-- *"The energy integration automatically schedules my appliances during cheap electricity hours"*
+**Development Philosophy:**
+- *Focus on creating technology that works invisibly in the background*
+- *Prioritize safety and reliability over flashy features*
+- *Build solutions for real-world problems, not just tech demos*
 
 ---
 
